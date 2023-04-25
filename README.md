@@ -18,11 +18,7 @@ I'm working hard to make first alpha version of it!
 
 ## Installation
 
-Make sure you have these libraries installed:
-	1. 
-	2.
-	3.
-
+Make sure you have these libraries installed: (Coming soon, we are still choosing libraries!)
 To get this into your project, you just get this repository into your 
 directory by running these command:
 
