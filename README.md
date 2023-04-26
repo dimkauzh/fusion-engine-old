@@ -2,7 +2,7 @@
 ![logo](https://user-images.githubusercontent.com/106883655/233103547-5693b2a3-22b9-4b68-ac2a-7220f16d48df.png)
 
 Fusion is a game engine for creating graphical applications using the 
-pyglet library. It provides a simple interface for creating windows, 
+OpenGL and GLFW library. It provides a simple interface for creating windows, 
 rendering graphics, and handling user input. It is and engine to create 
 games fast and easy
 
@@ -18,7 +18,7 @@ I'm working hard to make first alpha version of it!
 
 ## Installation
 
-Make sure you have these libraries installed: (Coming soon, we are still choosing libraries!)
+Make sure you have these libraries installed: GLFW and GLAD
 To get this into your project, you just get this repository into your 
 directory by running these command:
 
