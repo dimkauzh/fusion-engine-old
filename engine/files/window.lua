@@ -13,6 +13,10 @@ local function setViewport(x, y, width, height)
     gl.viewport(x, y, width, height)
 end
 
+local function newViewport(x, y, width, height)
+    return gl.viewport(x, y, width, height)
+end
+
 local function setWindowCurrent(window)
     glfw.make_context_current(window)
 end
@@ -26,4 +30,5 @@ return {
     setWindowCurrent = setWindowCurrent,
     swapBuffers = swapBuffers,
     setViewport = setViewport,
+    newViewport = newViewport,
 }
