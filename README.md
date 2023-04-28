@@ -48,8 +48,9 @@ directory by running these command:
 
 ## Community
 Our community is just growing, so if you want to help us with the project, 
-it will be very helpful
+it will be very helpful!
 We have a discord server at this link (https://discord.gg/Smg3CK4ZMc)
+Need to contact us? Just DM the Owner or CEO in discord and we will try to react as fast as possible
 
 ## Documentation
 
