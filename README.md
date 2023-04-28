@@ -1,5 +1,5 @@
 # Fusion Engine 
-                                                              ![logo](https://user-images.githubusercontent.com/106883655/233103547-5693b2a3-22b9-4b68-ac2a-7220f16d48df.png)
+![logo](https://user-images.githubusercontent.com/106883655/233103547-5693b2a3-22b9-4b68-ac2a-7220f16d48df.png)
 
 Fusion is a game engine for creating graphical applications using the 
 OpenGL and GLFW library and the programming language Lua. It provides a simple interface for creating windows, 
