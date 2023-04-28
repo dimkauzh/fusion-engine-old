@@ -2,7 +2,7 @@
 ![logo](https://user-images.githubusercontent.com/106883655/233103547-5693b2a3-22b9-4b68-ac2a-7220f16d48df.png)
 
 Fusion is a game engine for creating graphical applications using the 
-OpenGL and GLFW library. It provides a simple interface for creating windows, 
+OpenGL and GLFW library and the programming language Go. It provides a simple interface for creating windows, 
 rendering graphics, and handling user input. It is and engine to create 
 games fast and easy
 
@@ -21,7 +21,7 @@ but for now it is easier to develop the engine like this!
 
 ## Installation
 
-Make sure you have these libraries installed: GLFW and GLAD
+Make sure you have these libraries installed: GLFW and OpenGL (Both need to be for Golang)
 To get this into your project, you just get this repository into your 
 directory by running these command:
 
