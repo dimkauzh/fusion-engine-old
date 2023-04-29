@@ -55,10 +55,6 @@ Need to contact us? Just DM the Owner or CEO in discord and we will try to react
 ## Documentation
 
 See at [The wiki of the project](https://github.com/dimkauzh/fusion-engine/wiki)
-This engine is build using MoonGL and MoonGLFW, so if you can't find any documentation about the thing you want to use, then just use the documentation of MoonGL and MoonGLFW. The documentation is coming soon on the official website:
-
-
-
 
 ## 🚀 About Me
 A 13 year old game developer with much passion about the language Lua. So I made this project to grow my programming skills and just make a tool that I can use for myself or a tool for other people to help them develop games.
