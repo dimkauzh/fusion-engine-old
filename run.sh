@@ -5,7 +5,7 @@ echo "Building program..."
 echo "-------------------"
 echo "\n"
 
-g++ -o build/game example.cpp
+gcc -o build/game example.c
 
 echo "\n"
 echo "Running program..."
