@@ -12,3 +12,5 @@ echo "Running program..."
 echo "------------------"
 
 ./build/game
+
+echo "\n"
