@@ -2,7 +2,7 @@
 ![logo](https://user-images.githubusercontent.com/106883655/233103547-5693b2a3-22b9-4b68-ac2a-7220f16d48df.png)
 
 Fusion is a game engine for creating graphical applications using the 
-OpenGL and GLFW library and the programming language Lua. It provides a simple interface for creating windows, 
+OpenGL and GLFW library and the programming language C++. It provides a simple interface for creating windows, 
 rendering graphics, and handling user input. It is and engine to create 
 games fast and easy!
 
@@ -21,22 +21,7 @@ but for now it is easier to develop the engine like this!
 
 ## Installation
 
-Make sure you have these libraries installed: MoonGLFW and MoonGL (Both need to be for Lua)
-
-MoonGL:
-```bash
-  git clone https://github.com/stetre/moongl
-  cd moongl
-  make
-  make install # or 'sudo make install' (Ubuntu and MacOS)
-```
-MoonGLFW:
-```bash
-  git clone https://github.com/stetre/moonglfw
-  cd moonglfw
-  make
-  make install # or 'sudo make install' (Ubuntu and MacOS)
-```
+Make sure you have these libraries installed: GLFW and Glad (Included with project).
 
 To get this into your project, you just get this repository into your 
 directory by running these command:
@@ -55,6 +40,13 @@ Need to contact us? Just DM the Owner or CEO in discord and we will try to react
 ## Documentation
 
 See at [The wiki of the project](https://github.com/dimkauzh/fusion-engine/wiki)
+
+## Future of this engine
+Because this project only began 1 may 2023, we don't have a big progress because I, dimkauzh am the only developer, and we have one person that is working on discord moderating.
+
+Our cool ideas:
+  - Add lua to script with lua in this engine
+  - Make a full GUI app
 
 ## 🚀 About Me
 A 13 year old game developer with much passion about the language Lua. So I made this project to grow my programming skills and just make a tool that I can use for myself or a tool for other people to help them develop games.
