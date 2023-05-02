@@ -1,0 +1,19 @@
+cmake_minimum_required(VERSION 3.10)
+
+project(FusionEngine)
+
+# Find packages
+find_package(OpenGL REQUIRED)
+
+find_package(SDL2 REQUIRED)
+find_package(SDL2 REQUIRED)
+include_directories(SDL2Test ${SDL2_INCLUDE_DIRS})
+
+# Add executable
+add_executable(example examples/example.cpp)
+
+# Link libraries
+target_link_libraries(example OpenGL::GL)
+target_link_libraries(example ${SDL2_LIBRARIES})
+
+

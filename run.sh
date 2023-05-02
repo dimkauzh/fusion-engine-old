@@ -1,16 +1,25 @@
 rm -rf build
 mkdir build
 
-echo "Building program..."
+echo "Building project (CMake) ..."
 echo "-------------------"
 echo "\n"
 
-gcc -o build/game example.c
+cmake -Bbuild .
+
+echo "\n"
+echo "Building program (Makefile) ..."
+echo "-------------------"
+echo "\n"
+
+cd build
+make
 
 echo "\n"
 echo "Running program..."
 echo "------------------"
+echo "\n"
 
-./build/game
+./example
 
 echo "\n"

@@ -1,4 +1,5 @@
-#include "files/glad/glad.h"
-#include "GLFW/glfw3.h"
 #include <stdio.h>
-#include <stdbool.h>
+#include <stdint.h>
+#include <assert.h>
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_opengl.h>
