@@ -1,4 +1,5 @@
 #include "../fe/main.h"
+#include "SDL2/SDL_events.h"
 
 
 #define win_h 800
@@ -7,21 +8,16 @@
 int main()
 {
   SDL_Init(SDL_INIT_VIDEO);
-  //int WindowFlags = SDL_WINDOW_OPENGL;
-
-  //printf("Window flags: %d\n", WindowFlags);
 
   Window* Window = newWindow("hi", win_h, win_w);
-  //assert(Window());
-  //SDL_GLContext Context = SDL_GL_CreateContext(Window);
-  
+
   int Running = 1;
-  int FullScreen = 0;
 
   while (Running) {
-    Event Event;
-    while (SDL_PollEvent(&Event)) {
-      if (Event.type == SDL_QUIT) {
+    Event event;
+    while (checkEvents(&event)) {
+      
+      if (event.type == SDL_QUIT) {
         Running = 0;
       }
     }
@@ -32,5 +28,7 @@ int main()
 
     SDL_GL_SwapWindow(Window);
   }
+  SDL_DestroyWindow(Window);
+  SDL_Quit();
   return 0;
 }
