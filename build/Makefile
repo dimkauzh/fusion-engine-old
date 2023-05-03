@@ -129,29 +129,29 @@ example/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/build
 .PHONY : example/fast
 
-examples/example.o: examples/example.cpp.o
+examples/example.o: examples/example.c.o
 .PHONY : examples/example.o
 
 # target to build an object file
-examples/example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/examples/example.cpp.o
-.PHONY : examples/example.cpp.o
+examples/example.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/examples/example.c.o
+.PHONY : examples/example.c.o
 
-examples/example.i: examples/example.cpp.i
+examples/example.i: examples/example.c.i
 .PHONY : examples/example.i
 
 # target to preprocess a source file
-examples/example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/examples/example.cpp.i
-.PHONY : examples/example.cpp.i
+examples/example.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/examples/example.c.i
+.PHONY : examples/example.c.i
 
-examples/example.s: examples/example.cpp.s
+examples/example.s: examples/example.c.s
 .PHONY : examples/example.s
 
 # target to generate assembly for a file
-examples/example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/examples/example.cpp.s
-.PHONY : examples/example.cpp.s
+examples/example.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/examples/example.c.s
+.PHONY : examples/example.c.s
 
 # Help Target
 help:

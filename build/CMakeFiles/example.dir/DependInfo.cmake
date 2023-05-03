@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/dmarhitych-pro/cpp/fusion-engine/examples/example.cpp" "CMakeFiles/example.dir/examples/example.cpp.o" "gcc" "CMakeFiles/example.dir/examples/example.cpp.o.d"
+  "/Users/dmarhitych-pro/cpp/fusion-engine/examples/example.c" "CMakeFiles/example.dir/examples/example.c.o" "gcc" "CMakeFiles/example.dir/examples/example.c.o.d"
   )
 
 # Targets to which this target links.

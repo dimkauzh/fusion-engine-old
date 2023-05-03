@@ -1,5 +1,11 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <assert.h>
-#include <SDL2/SDL.h>
-#include <SDL2/SDL_opengl.h>
+#include <math.h>
+#include <string.h>
+
+#include "files/include.h"
+#include "files/window.h"
+#include "files/event.h"
+
+
