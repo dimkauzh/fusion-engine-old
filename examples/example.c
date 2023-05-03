@@ -4,8 +4,6 @@
 #define win_h 800
 #define win_w 600
 
-
-
 int main()
 {
   SDL_Init(SDL_INIT_VIDEO);
