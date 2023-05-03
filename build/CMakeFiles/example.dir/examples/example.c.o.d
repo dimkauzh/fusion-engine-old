@@ -1,6 +1,6 @@
 CMakeFiles/example.dir/examples/example.c.o: \
-  /Users/dmarhitych-pro/cpp/fusion-engine/examples/example.c \
-  /Users/dmarhitych-pro/cpp/fusion-engine/examples/../fe/main.h \
+  /Users/dmarhitych-pro/fusion-engine/examples/example.c \
+  /Users/dmarhitych-pro/fusion-engine/examples/../fe/main.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/cdefs.h \
@@ -51,7 +51,7 @@ CMakeFiles/example.dir/examples/example.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/secure/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/secure/_string.h \
-  /Users/dmarhitych-pro/cpp/fusion-engine/examples/../fe/files/include.h \
+  /Users/dmarhitych-pro/fusion-engine/examples/../fe/files/include.h \
   /usr/local/include/SDL2/SDL.h /usr/local/include/SDL2/SDL_main.h \
   /usr/local/include/SDL2/SDL_stdinc.h \
   /usr/local/include/SDL2/SDL_config.h \
@@ -272,5 +272,5 @@ CMakeFiles/example.dir/examples/example.c.o: \
   /usr/local/include/SDL2/SDL_image.h \
   /usr/local/include/SDL2/SDL_mixer.h /usr/local/include/SDL2/SDL_ttf.h \
   /usr/local/include/SDL2/SDL_net.h \
-  /Users/dmarhitych-pro/cpp/fusion-engine/examples/../fe/files/window.h \
-  /Users/dmarhitych-pro/cpp/fusion-engine/examples/../fe/files/event.h
+  /Users/dmarhitych-pro/fusion-engine/examples/../fe/files/window.h \
+  /Users/dmarhitych-pro/fusion-engine/examples/../fe/files/event.h

@@ -1,6 +1,4 @@
 #include "../fe/main.h"
-#include "SDL2/SDL_events.h"
-
 
 #define win_h 800
 #define win_w 600

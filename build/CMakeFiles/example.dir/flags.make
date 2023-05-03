@@ -4,7 +4,7 @@
 # compile C with /Library/Developer/CommandLineTools/usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/dmarhitych-pro/cpp/fusion-engine/SDL2Test -I/usr/local/include -isystem /usr/local/include/SDL2 -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks
+C_INCLUDES = -I/Users/dmarhitych-pro/fusion-engine/SDL2Test -I/usr/local/include -isystem /usr/local/include/SDL2 -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks
 
 C_FLAGS =  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
 
