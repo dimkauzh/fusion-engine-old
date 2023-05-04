@@ -15,12 +15,13 @@ Keep in mind that this project is in work, so if you want to see code,
 then it is in dev branch but there is no 'full version' of this project! 
 I'm working hard to make first alpha version of it!
 
-Currently, in the folder example is a file called example.c. This the file where you put your code in and require the engine file. Later it will become a library, but for now it is easier to develop the engine like this! To run it just run the run.sh. Be sure you have Cmake installed!
+First make sure you have everything installed, see chapter Installation.
+Currently, in the folder example is a file called example.c. This the file where you put your code in and require the engine file. Later it will become a library, but for now it is easier to develop the engine like this To run it just run the run.sh
 
 
 ## Installation
 
-Make sure you have these libraries installed: All SDL2 libraries.
+Make sure you have these apps/libraries installed: SDL2 and CMake.
 Here is how:
   Go to [this website](https://github.com/libsdl-org/SDL/releases) and download the version you need, and install it, more on [this website](https://libsdl.org/)
 
