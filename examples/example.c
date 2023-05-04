@@ -7,15 +7,14 @@ int main()
 {
   init();
 
-  Window* Window = newWindow("hi", win_h, win_w);
+  Window *Window = newWindow("hi", win_h, win_w);
 
-  while (windowShouldClose()) {
+  while (windowShouldClose(Window)) {
 
     getNewViewport(0, 0, win_h, win_w);
-    glClearColor(1.f, 0.f, 1.f, 0.f);
+    setBackgroundColor(CYAN);
     glClear(GL_COLOR_BUFFER_BIT);
 
-    SDL_GL_SwapWindow(Window);
   }
   SDL_DestroyWindow(Window);
   SDL_Quit();

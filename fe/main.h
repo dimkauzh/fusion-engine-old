@@ -8,14 +8,14 @@
 #include "files/include.h"
 #include "files/window.h"
 #include "files/event.h"
-
+#include "files/color.h"
 
 
 void init() {
     SDL_Init(SDL_INIT_VIDEO);
 }
 
-int windowShouldClose() {
+int windowShouldClose(Window *window) {
     int running = 1;
 
     Event event;
@@ -25,6 +25,9 @@ int windowShouldClose() {
             running = 0;
         }
     }
+
+    SDL_GL_SwapWindow(window);
+
     return running;
 }
 
