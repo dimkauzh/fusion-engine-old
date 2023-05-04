@@ -13,10 +13,9 @@ int main()
 
     getNewViewport(0, 0, win_h, win_w);
     setBackgroundColor(CYAN);
-    glClear(GL_COLOR_BUFFER_BIT);
 
   }
-  SDL_DestroyWindow(Window);
-  SDL_Quit();
+
+  Quit(Window);
   return 0;
 }
