@@ -21,6 +21,8 @@ Currently, in the folder example is a file called example.c. This the file where
 ## Installation
 
 Make sure you have these libraries installed: All SDL2 libraries.
+Here is how:
+  Go to [this website](https://github.com/libsdl-org/SDL/releases) and download the version you need, and install it, more on [this website](https://libsdl.org/)
 
 To get this into your project, you just get this repository into your 
 directory by running these command:
