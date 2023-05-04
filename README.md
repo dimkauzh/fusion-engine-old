@@ -15,8 +15,7 @@ Keep in mind that this project is in work, so if you want to see code,
 then it is in dev branch but there is no 'full version' of this project! 
 I'm working hard to make first alpha version of it!
 
-Currently, example.lua is the file where you put your code in and require the engine file. Later it will become a library,
-but for now it is easier to develop the engine like this!
+Currently, in the folder example is a file called example.c. This the file where you put your code in and require the engine file. Later it will become a library, but for now it is easier to develop the engine like this! To run it just run the run.sh. Be sure you have Cmake installed!
 
 
 ## Installation
@@ -39,15 +38,15 @@ Need to contact us? Just DM the Owner or CEO in discord and we will try to react
 
 ## Documentation
 
-See at [The wiki of the project](https://github.com/dimkauzh/fusion-engine/wiki)
+See at [The wiki of the project](https://github.com/dimkauzh/fusion-engine/wiki) (Still in work!)
 
 ## Future of this engine
-Because this project only began 1 may 2023, we don't have a big progress because I, dimkauzh am the only developer, and we have one person that is working on discord moderating.
+Because this project only began 1 may 2023, we don't have a big progress because I, Dimkauzh am the only developer, and we have one person that is working on discord moderating(Finn) and BIG Thanks to him for doing that.
 
 Our cool ideas:
   - Add lua to script with lua in this engine
   - Make a full GUI app
 
 ## 🚀 About Me
-A 13 year old game developer with much passion about the language Lua. So I made this project to grow my programming skills and just make a tool that I can use for myself or a tool for other people to help them develop games.
+A 13 year old game developer with much passion about game development. So I made this project to grow my programming skills and just make a tool that I can use for myself or a tool for other people to help them develop games.
 
