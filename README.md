@@ -15,8 +15,7 @@ Keep in mind that this project is in work, so if you want to see code,
 then it is in dev branch but there is no 'full version' of this project! 
 I'm working hard to make first alpha version of it!
 
-Currently, example.lua is the file where you put your code in and require the engine file. Later it will become a library,
-but for now it is easier to develop the engine like this!
+Currently, in the folder example is a file called example.c. This the file where you put your code in and require the engine file. Later it will become a library, but for now it is easier to develop the engine like this! To run it just run the run.sh. Be sure you have Cmake installed!
 
 
 ## Installation
