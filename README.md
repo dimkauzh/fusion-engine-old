@@ -38,7 +38,7 @@ Need to contact us? Just DM the Owner or CEO in discord and we will try to react
 
 ## Documentation
 
-See at [The wiki of the project](https://github.com/dimkauzh/fusion-engine/wiki)
+See at [The wiki of the project](https://github.com/dimkauzh/fusion-engine/wiki) (Still in work!)
 
 ## Future of this engine
 Because this project only began 1 may 2023, we don't have a big progress because I, Dimkauzh am the only developer, and we have one person that is working on discord moderating(Finn) and BIG Thanks to him for doing that.
