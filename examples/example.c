@@ -5,22 +5,13 @@
 
 int main()
 {
-  SDL_Init(SDL_INIT_VIDEO);
+  init();
 
   Window* Window = newWindow("hi", win_h, win_w);
 
-  int Running = 1;
+  while (windowShouldClose()) {
 
-  while (Running) {
-    Event event;
-    while (checkEvents(&event)) {
-      
-      if (event.type == SDL_QUIT) {
-        Running = 0;
-      }
-    }
-
-    glViewport(0, 0, win_w, win_h);
+    getNewViewport(0, 0, win_h, win_w);
     glClearColor(1.f, 0.f, 1.f, 0.f);
     glClear(GL_COLOR_BUFFER_BIT);
 
