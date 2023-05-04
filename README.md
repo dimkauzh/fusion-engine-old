@@ -48,5 +48,5 @@ Our cool ideas:
   - Make a full GUI app
 
 ## 🚀 About Me
-A 13 year old game developer with much passion about the language Lua. So I made this project to grow my programming skills and just make a tool that I can use for myself or a tool for other people to help them develop games.
+A 13 year old game developer with much passion about game development. So I made this project to grow my programming skills and just make a tool that I can use for myself or a tool for other people to help them develop games.
 
