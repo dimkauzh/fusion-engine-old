@@ -41,7 +41,7 @@ Need to contact us? Just DM the Owner or CEO in discord and we will try to react
 See at [The wiki of the project](https://github.com/dimkauzh/fusion-engine/wiki)
 
 ## Future of this engine
-Because this project only began 1 may 2023, we don't have a big progress because I, dimkauzh am the only developer, and we have one person that is working on discord moderating.
+Because this project only began 1 may 2023, we don't have a big progress because I, Dimkauzh am the only developer, and we have one person that is working on discord moderating(Finn) and big Thanks to him for doing that.
 
 Our cool ideas:
   - Add lua to script with lua in this engine
