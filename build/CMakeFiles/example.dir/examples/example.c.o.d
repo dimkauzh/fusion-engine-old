@@ -275,4 +275,6 @@ CMakeFiles/example.dir/examples/example.c.o: \
   /usr/local/include/SDL2/SDL_net.h \
   /Users/dmarhitych-pro/fusion-engine/examples/../fe/files/window.h \
   /Users/dmarhitych-pro/fusion-engine/examples/../fe/files/event.h \
-  /Users/dmarhitych-pro/fusion-engine/examples/../fe/files/color.h
+  /Users/dmarhitych-pro/fusion-engine/examples/../fe/files/color.h \
+  /Users/dmarhitych-pro/fusion-engine/examples/../fe/files/draw.h \
+  /Users/dmarhitych-pro/fusion-engine/examples/../fe/files/renderer.h

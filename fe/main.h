@@ -9,10 +9,12 @@
 #include "files/window.h"
 #include "files/event.h"
 #include "files/color.h"
+#include "files/draw.h"
+#include "files/renderer.h"
 
 
 void init() {
-    SDL_Init(SDL_INIT_VIDEO);
+    SDL_Init(SDL_INIT_EVERYTHING);
 }
 
 int windowShouldClose(Window *window) {
@@ -26,12 +28,14 @@ int windowShouldClose(Window *window) {
         }
     }
 
-    SDL_GL_SwapWindow(window);
-
     return running;
 }
 
 void Quit(Window *window) {
     SDL_DestroyWindow(window);
     SDL_Quit();
+}
+
+void refresh(SDL_Renderer *renderer) {
+    SDL_RenderPresent(renderer);
 }

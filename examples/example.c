@@ -5,17 +5,21 @@
 
 int main()
 {
-  init();
+    init();
 
-  Window *Window = newWindow("hi", win_h, win_w);
+    Window *window = newWindow("hi", win_h, win_w);
 
-  while (windowShouldClose(Window)) {
+    //Renderer *renderer = NULL;
+    Renderer *renderer = createRenderer(window);
 
-    getNewViewport(0, 0, win_h, win_w);
-    setBackgroundColor(CYAN);
+    while (windowShouldClose(window)) {
 
-  }
+        newViewport(0, 0, win_h, win_w);
+        setBackgroundColor(renderer, CYAN);
 
-  Quit(Window);
-  return 0;
+        refresh(renderer);
+    }
+
+    Quit(window);
+    return 0;
 }

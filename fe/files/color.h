@@ -1,33 +1,43 @@
 #include "include.h"
 
-float GREEN[4] = {0.f, 1.f, 0.f, 1.f};
-float RED[4] = {1.f, 0.f, 0.f, 1.f};
-float BLUE[4] = {0.f, 0.f, 1.f, 1.f};
-float YELLOW[4] = {1.f, 1.f, 0.f, 1.f};
-float CYAN[4] = {0.f, 1.f, 1.f, 1.f};
-float MAGENTA[4] = {1.f, 0.f, 1.f, 1.f};
-float WHITE[4] = {1.f, 1.f, 1.f, 1.f};
-float BLACK[4] = {0.f, 0.f, 0.f, 1.f};
+int GREEN[4] = {0, 255, 0, 255};
+int RED[4] = {255, 0, 0, 255};
+int BLUE[4] = {0, 0, 255, 255};
+int YELLOW[4] = {255, 255, 0, 255};
+int CYAN[4] = {0, 255, 255, 255};
+int MAGENTA[4] = {100, 0, 100, 100};
+int WHITE[4] = {255, 255, 255, 255};
+int BLACK[4] = {0, 0, 0, 255};
 
-void setBackgroundColor(float color[]) {
+void setBackgroundColor(Renderer *renderer, int color[]) {
     if (color == GREEN) {
-        glClearColor(0.f, 1.f, 0.f, 1.f);
-    } else if (color == RED) {
-        glClearColor(1.f, 0.f, 0.f, 1.f);
-    } else if (color == BLUE) {
-        glClearColor(0.f, 0.f, 1.f, 1.f);
-    } else if (color == YELLOW) {
-        glClearColor(1.f, 1.f, 0.f, 1.f);
-    } else if (color == CYAN) {
-        glClearColor(0.f, 1.f, 1.f, 1.f);
-    } else if (color == MAGENTA) {
-        glClearColor(1.f, 0.f, 1.f, 1.f);
-    } else if (color == WHITE) {
-        glClearColor(1.f, 1.f, 1.f, 1.f);
-    } else if (color == BLACK) {
-        glClearColor(0.f, 0.f, 0.f, 1.f);
-    } else {
-        glClearColor(color[0], color[1], color[2], color[3]);
+        SDL_SetRenderDrawColor(renderer, GREEN[0], GREEN[1], GREEN[2], GREEN[3]);
     }
-    glClear(GL_COLOR_BUFFER_BIT);
+    else if (color == RED) {
+        SDL_SetRenderDrawColor(renderer, RED[0], RED[1], RED[2], RED[3]);
+    }
+    else if (color == BLUE) {
+        SDL_SetRenderDrawColor(renderer, BLUE[0], BLUE[1], BLUE[2], BLUE[3]);
+    }
+    else if (color == YELLOW) {
+        SDL_SetRenderDrawColor(renderer, YELLOW[0], YELLOW[1], YELLOW[2], YELLOW[3]);
+    }
+    else if (color == CYAN) {
+        SDL_SetRenderDrawColor(renderer, CYAN[0], CYAN[1], CYAN[2], CYAN[3]);
+    }
+    else if (color == MAGENTA) {
+        SDL_SetRenderDrawColor(renderer, MAGENTA[0], MAGENTA[1], MAGENTA[2], MAGENTA[3]);
+    }
+    else if (color == WHITE) {
+        SDL_SetRenderDrawColor(renderer, WHITE[0], WHITE[1], WHITE[2], WHITE[3]);
+    }
+    else if (color == BLACK) {
+        SDL_SetRenderDrawColor(renderer, BLACK[0], BLACK[1], BLACK[2], BLACK[3]);
+    }
+    else {
+        SDL_SetRenderDrawColor(renderer, color[0], color[1], color[2], color[3]);
+    }
+
+    SDL_RenderClear(renderer);
+
 }

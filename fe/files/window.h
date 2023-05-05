@@ -3,8 +3,6 @@
 #define std_win_w 800
 #define std_win_h 600
 
-typedef struct SDL_Window Window;
-
 
 Window* newWindow(char title[], int width, int height) {
   int WindowFlags = SDL_WINDOW_OPENGL;
@@ -13,6 +11,6 @@ Window* newWindow(char title[], int width, int height) {
   return Window;
 }
 
-void getNewViewport(int x, int y, int width, int height) {
+void newViewport(int x, int y, int width, int height) {
     glViewport(x, y, width, height);
 }
