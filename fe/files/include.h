@@ -35,6 +35,7 @@
 #include "SDL2/SDL_version.h"
 #include "SDL2/SDL_assert.h"
 
+
 #define for_loop(item, array) \
     for(int keep = 1, \
             count = 0,\
@@ -47,3 +48,4 @@ typedef struct SDL_Renderer Renderer;
 typedef struct SDL_Window Window;
 typedef struct SDL_Rect Rect;
 typedef union SDL_Event Event;
+

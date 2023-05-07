@@ -8,7 +8,6 @@
 #include "files/include.h"
 #include "files/window.h"
 #include "files/event.h"
-#include "files/color.h"
 #include "files/draw.h"
 #include "files/renderer.h"
 
