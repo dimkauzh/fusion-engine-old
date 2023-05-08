@@ -4,13 +4,22 @@
 #define std_win_h 600
 
 
-Window* newWindow(char title[], int width, int height) {
-  int WindowFlags = SDL_WINDOW_OPENGL;
-  Window* Window = SDL_CreateWindow("test", 0, 0, width, height, WindowFlags);
-  SDL_GLContext Context = SDL_GL_CreateContext(Window);
-  return Window;
+Window* newWindow(char title[], int width, int height, char flags[]) {
+    int WindowFlags;
+
+    if (strcmp(flags, "fullscreen") == 0) {
+        WindowFlags = SDL_WINDOW_FULLSCREEN;
+    } else if (strcmp(flags, "borderless") == 0) {
+        WindowFlags = SDL_WINDOW_BORDERLESS;
+    } else if (strcmp(flags, "resizable") == 0) {
+        WindowFlags = SDL_WINDOW_RESIZABLE;
+    } else {
+        WindowFlags = SDL_WINDOW_SHOWN;
+    }
+    Window* Window = SDL_CreateWindow("test", 0, 0, width, height, WindowFlags);
+    return Window;
 }
 
-void newViewport(int x, int y, int width, int height) {
-    glViewport(x, y, width, height);
+void setViewport(Renderer *renderer, Rect *rect) {
+    SDL_RenderSetViewport(renderer, rect);
 }

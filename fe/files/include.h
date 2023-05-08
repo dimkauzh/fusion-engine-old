@@ -35,6 +35,13 @@
 #include "SDL2/SDL_version.h"
 #include "SDL2/SDL_assert.h"
 
+#include <stdio.h>
+#include <stdint.h>
+#include <assert.h>
+#include <math.h>
+#include <string.h>
+#include <stdbool.h>
+
 
 #define for_loop(item, array) \
     for(int keep = 1, \

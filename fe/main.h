@@ -1,10 +1,4 @@
-#include <stdio.h>
-#include <stdint.h>
-#include <assert.h>
-#include <math.h>
-#include <string.h>
-#include <stdbool.h>
-
+// Created by Dima Marhitych
 #include "files/include.h"
 #include "files/window.h"
 #include "files/event.h"
