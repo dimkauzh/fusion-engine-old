@@ -276,4 +276,5 @@ CMakeFiles/example.dir/examples/example.c.o: \
   /Users/dmarhitych-pro/fusion-engine/examples/../fe/files/window.h \
   /Users/dmarhitych-pro/fusion-engine/examples/../fe/files/event.h \
   /Users/dmarhitych-pro/fusion-engine/examples/../fe/files/draw.h \
-  /Users/dmarhitych-pro/fusion-engine/examples/../fe/files/renderer.h
+  /Users/dmarhitych-pro/fusion-engine/examples/../fe/files/renderer.h \
+  /Users/dmarhitych-pro/fusion-engine/examples/../fe/files/shapes.h

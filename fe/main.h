@@ -4,6 +4,7 @@
 #include "files/event.h"
 #include "files/draw.h"
 #include "files/renderer.h"
+#include "files/shapes.h"
 
 
 void init() {
