@@ -6,6 +6,8 @@
 #include "files/renderer.h"
 #include "files/shapes.h"
 
+#define TEST_PNG "test_files/test.png"
+
 
 void init() {
     SDL_Init(SDL_INIT_EVERYTHING);

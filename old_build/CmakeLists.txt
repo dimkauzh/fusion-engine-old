@@ -1,0 +1,23 @@
+    cmake_minimum_required(VERSION 3.10)
+
+    project(FusionEngine)
+
+    # Find packages
+    find_package(OpenGL REQUIRED)
+    find_package(SDL2 REQUIRED)
+    find_package(SDL2_image REQUIRED)
+    find_package(SDL2_ttf REQUIRED)
+    find_package(SDL2_mixer REQUIRED)
+
+    # Add executable
+    add_executable(examples/example.c)
+
+    include_directories(${SDL2_INCLUDE_DIRS} ${SDL2_IMAGE_INCLUDE_DIRS})
+
+    # Link libraries
+    target_link_libraries(example OpenGL::GL)
+    target_link_libraries(example ${SDL2_IMAGE_LIBRARIES})
+    target_link_libraries(example ${SDL2_LIBRARIES})
+    target_link_libraries(example ${SDL2_TTF_LIBRARIES})
+    target_link_libraries(example ${SDL2_MIXER_LIBRARIES})
+

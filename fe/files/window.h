@@ -4,7 +4,7 @@
 #define std_win_h 600
 
 
-Window* newWindow(char title[], int width, int height, char flags[]) {
+Window* newWindow(const char title[40], int width, int height, const char flags[40]) {
     int WindowFlags;
 
     if (strcmp(flags, "fullscreen") == 0) {

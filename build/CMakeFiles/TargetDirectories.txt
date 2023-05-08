@@ -1,3 +1,0 @@
-/Users/dmarhitych-pro/fusion-engine/build/CMakeFiles/example.dir
-/Users/dmarhitych-pro/fusion-engine/build/CMakeFiles/edit_cache.dir
-/Users/dmarhitych-pro/fusion-engine/build/CMakeFiles/rebuild_cache.dir
