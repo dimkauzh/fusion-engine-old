@@ -5,15 +5,16 @@
 #include "files/draw.h"
 #include "files/renderer.h"
 #include "files/shapes.h"
+#include "files/image.h"
 
-#define TEST_PNG "test_files/test.png"
+#define TEST_PNG "fe/test_files/test.png"
 
 
 void init() {
     SDL_Init(SDL_INIT_EVERYTHING);
 }
 
-int windowShouldClose(Window *window) {
+int windowShouldClose() {
     int running = 1;
 
     Event event;
