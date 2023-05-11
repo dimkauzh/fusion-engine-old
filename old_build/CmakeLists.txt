@@ -2,6 +2,8 @@
 
     project(FusionEngine)
 
+    set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/")
+
     # Find packages
     find_package(OpenGL REQUIRED)
     find_package(SDL2 REQUIRED)
@@ -9,10 +11,11 @@
     find_package(SDL2_ttf REQUIRED)
     find_package(SDL2_mixer REQUIRED)
 
-    # Add executable
-    add_executable(examples/example.c)
+    include_directories(${SDL2_INCLUDE_DIRS})
+    include_directories(${SDL2_IMAGE_INCLUDE_DIRS})
 
-    include_directories(${SDL2_INCLUDE_DIRS} ${SDL2_IMAGE_INCLUDE_DIRS})
+    # Add executable
+    add_executable(example examples/example.c)
 
     # Link libraries
     target_link_libraries(example OpenGL::GL)
