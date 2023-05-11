@@ -19,13 +19,34 @@ void setBackgroundColor(Renderer *renderer, int color[]) {
     SDL_RenderClear(renderer);
 }
 
-void drawRect(Renderer *renderer, Rect *rect, int color[]) {
+void drawOwnRect(Renderer *renderer, Rect *rect, int color[]) {
     setDrawColor(renderer, color);
     SDL_RenderFillRect(renderer, rect);
 }
-void drawRectOutline(Renderer *renderer, Rect *rect, int color[]) {
+void drawOwnRectOutline(Renderer *renderer, Rect *rect, int color[]) {
     setDrawColor(renderer, color);
     SDL_RenderDrawRect(renderer, rect);
+}
+
+void drawRect(Renderer *renderer, int x, int y, int h, int w, int color[]) {
+    SDL_Rect rect;
+    rect.x = x;
+    rect.y = y;
+    rect.h = h;
+    rect.w = w;
+
+    setDrawColor(renderer, color);
+    SDL_RenderFillRect(renderer, &rect);
+}
+void drawRectOutline(Renderer *renderer, int x, int y, int h, int w, int color[]) {
+    SDL_Rect rect;
+    rect.x = x;
+    rect.y = y;
+    rect.h = h;
+    rect.w = w;
+
+    setDrawColor(renderer, color);
+    SDL_RenderDrawRect(renderer, &rect);
 }
 
 
