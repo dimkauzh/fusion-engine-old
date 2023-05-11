@@ -20,7 +20,7 @@ Currently, in the folder example is a file called example.c. This the file where
 
 ## Installation
 
-Make sure you have these apps/libraries installed: SDL2 and CMake.
+Make sure you have these apps/libraries installed: SDL2.
 Here is how:
   Go to [this website](https://github.com/libsdl-org/SDL/releases) and download the version you need, and install it, more on [this website](https://libsdl.org/)
 
