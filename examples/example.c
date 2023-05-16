@@ -13,7 +13,7 @@ int main()
     while (windowShouldClose()) {
         setBackgroundColor(renderer, BLUE);
 
-        drawImage(renderer, 50, 50, 30, 30, TEST_PNG);
+        drawImage(renderer, 550, 550, 150, 150, TEST_PNG);
 
         drawOwnRect(renderer, &fill_rect, RED);
         drawOwnRectOutline(renderer, &not_fill_rect, GREEN);

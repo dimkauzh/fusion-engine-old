@@ -56,5 +56,5 @@ typedef struct SDL_Renderer Renderer;
 typedef struct SDL_Window Window;
 typedef struct SDL_Rect Rect;
 typedef union SDL_Event Event;
-typedef struct SDL_texture Texture;
+typedef struct SDL_texture Image;
 
