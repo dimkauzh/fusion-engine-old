@@ -28,7 +28,7 @@ int windowShouldClose() {
     return running;
 }
 
-void Quit(Window *window) {
+void Quit(SDL_Window *window) {
     SDL_DestroyWindow(window);
     SDL_Quit();
 }

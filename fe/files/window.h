@@ -3,8 +3,9 @@
 #define std_win_w 800
 #define std_win_h 600
 
+typedef struct SDL_Window Window;
 
-Window* newWindow(const char title[40], int width, int height, const char flags[40]) {
+SDL_Window* newWindow(const char title[40], int width, int height, const char flags[40]) {
     int WindowFlags;
 
     if (strcmp(flags, "fullscreen") == 0) {
@@ -16,10 +17,10 @@ Window* newWindow(const char title[40], int width, int height, const char flags[
     } else {
         WindowFlags = SDL_WINDOW_SHOWN;
     }
-    Window* Window = SDL_CreateWindow("test", 0, 0, width, height, WindowFlags);
+    SDL_Window* Window = SDL_CreateWindow(title, 0, 0, width, height, WindowFlags);
     return Window;
 }
 
-void setViewport(Renderer *renderer, Rect *rect) {
+void setViewport(SDL_Renderer *renderer, SDL_Rect *rect) {
     SDL_RenderSetViewport(renderer, rect);
 }
