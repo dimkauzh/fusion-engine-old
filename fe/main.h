@@ -4,8 +4,8 @@
 #include "files/event.h"
 #include "files/draw.h"
 #include "files/renderer.h"
-#include "files/shapes.h"
 #include "files/image.h"
+#include "files/input.h"
 
 #define TEST_PNG "fe/test_files/test.png"
 
