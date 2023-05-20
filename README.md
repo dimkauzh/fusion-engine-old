@@ -47,7 +47,7 @@ Because this project only began 1 may 2023, we don't have a big progress because
 
 Our cool ideas:
   - Add lua to script with lua in this engine
-  - Make a full GUI app
+  - Make a full GUI app (With something like GTK+)
 
 ## 🚀 About Me
 A 13 year old game developer with much passion about game development. So I made this project to grow my programming skills and just make a tool that I can use for myself or a tool for other people to help them develop games.
