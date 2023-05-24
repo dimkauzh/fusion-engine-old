@@ -12,7 +12,7 @@ int main()
 
     Event event;
 
-    Image *image = newImage(renderer, TEST_PNG, 160, 160, 160, 160);
+    Image *image = newImage(renderer, TEST_PNG, 190, 190, 200, 200);
 
     while (windowShouldClose()) {
         setBackgroundColor(renderer, BLUE);
@@ -23,7 +23,7 @@ int main()
             printf("Button A is not pressed.\n");
         }
 
-        drawImage(renderer, 450, 450, 150, 150, TEST_PNG);
+        drawImage(renderer, 450, 450, 150, 250, TEST_PNG);
 
         drawOwnImage(*image);
 
