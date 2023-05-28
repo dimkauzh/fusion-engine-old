@@ -4,7 +4,7 @@ int main()
 {
     init();
 
-    Window *window = newWindow("hi", 800, 600, "resizable");
+    Window *window = newWindow("hihihihi", 800, 600, "resizable");
     Renderer *renderer = createRenderer(window);
 
     Rect fill_rect = newRect(160,150,200,200);

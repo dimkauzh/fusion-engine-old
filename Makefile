@@ -13,7 +13,7 @@ else
     endif
 endif
 
-example: examples/example.c
+example: src/examples/example.c
 	$(CXX) $(CXXFLAGS) $(LDFLAGS) $^ $(LDLIBS) -o build/$@
 
 run: example
